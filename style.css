@@ -1,0 +1,847 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+
+body{
+    background-image: url(images/bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.giris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    background-color: rgb(238, 232, 232);
+    border-radius: 20px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .start {
+    font-family: 'Secular One', sans-serif;
+    height: 55px;
+    width: 550px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+.startb{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    border: none;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Secular One', sans-serif;
+    height: 55px;
+    width: 500px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;  
+
+}
+.startb:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -35%;
+    height: 30%;
+    width: 30%;
+    position: relative;
+    margin: auto;
+}
+.logop{
+    height: 130%;
+}
+
+.acıklama{
+    font-family: 'Secular One', sans-serif;
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    background-color: rgb(116, 114, 114);
+    border-radius: 20px;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.m1, .m2, .m3 {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    color: white;
+    display: block;
+  }
+  
+.alan{
+    display: block;
+    width: 870px;
+    background-color: rgb(238, 232, 232);
+    height: 110vh;
+    top: -50px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.anlam{
+    top: 10%;
+    max-width: 1100px;
+    max-height: 1px;
+    padding: auto;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.text{
+    position: relative;
+    font-family: 'Secular One', sans-serif;
+    font-size: x-large;
+    top: 50px;
+
+}
+
+.harfler{
+    top: 10%;
+    max-width: 100px;
+    max-height: 100px;
+    position: relative;
+    
+    margin: auto;
+}
+
+.tamam-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 62%;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    margin: auto;
+}
+
+.alerts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 70%;
+    width: 70%;
+    height: 8%;
+    position: relative;
+    margin: auto;
+}
+.textalert1{
+    padding: 10px;
+    font-size: large;
+    color: red;
+    font-family: 'Secular One', sans-serif;
+}
+
+.inputtext {
+    border-radius: 10px;
+    height: 55px;
+    width: 75%;
+    max-width: 75%;
+    font-family: 'Secular One', sans-serif;
+    background-color: rgb(218, 213, 213);
+    border: none;
+    padding: 20px;
+    font-size: large;
+    box-sizing: border-box;
+  }
+  
+
+.skipb{
+    height: 52px;
+    margin: 10px;
+    width: 10%;
+    border: none;
+    background: rgb(248, 197, 30);
+    border-radius: 10px;  
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+.again{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    border: none;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Secular One', sans-serif;
+    height: 50px;
+    width: 500px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;  
+
+}
+.again:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+
+
+.sonuc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    background-color: rgb(238, 232, 232);
+    border-radius: 20px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+.sonuclar{
+    position: relative;
+    margin-left: 30px;
+    top: 10px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+}
+
+.end{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-family: 'Secular One', sans-serif;
+    font-size: xx-large;
+}
+.true{
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.false{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.empty{
+    margin-left: 30px;
+}
+
+.ortalama{
+    position: absolute;
+    margin-left: 32%;
+    width: 65%;
+    height: 55%;
+    top: 80px;
+}
+
+p1[id="ortalama"]{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Secular One', sans-serif;
+    font-size: 180px;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: none; /* Arka plan resmi burada belirtilir */
+        background-color: rgb(238, 232, 232);
+        background-size: cover;
+        background-position: center center; /* Resmin ortalanması için */
+        background-repeat: no-repeat; /* Tekrarlamaması için */
+        overflow-x: hidden; /* Yatay kaydırmayı engellemek için */
+        overflow-y: auto; /* Dikey kaydırmayı sadece gerekli olduğunda aktif etmek için */
+      }
+      
+      
+    .giris {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 380px;
+        background-color: rgb(238, 232, 232);
+        border-radius: 20px;
+        height: 800px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -40%;
+        height: 30%;
+        width: 30%;
+        position: relative;
+        margin: auto;
+    }
+    .logop{
+        height: 130%;
+    }
+    .acıklama{
+        font-family: 'Secular One', sans-serif;
+        height: 50%;
+        width: 95%;
+        position: absolute;
+        background-color: rgb(116, 114, 114);
+        border-radius: 20px;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .m1, .m2, .m3 {
+        padding-top: 40px;
+        margin-left: 8px;
+        margin-right: 5px;
+        margin-bottom: 50px;
+        font-size: 17;
+        color: white;
+        display: block;
+      }
+    .start {
+        font-family: 'Secular One', sans-serif;
+        height: 10%;
+        width: 10%;
+        position: absolute;
+        bottom: 10;
+        left: 10%;
+        transform: translateX(-50%);
+      }
+      
+    .startb{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        border: none;
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Secular One', sans-serif;
+        height: 50px;
+        width: 345px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;  
+    
+    }
+    .startb:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+    }
+
+
+
+
+    .alan {
+        display: block;
+        width: 100%;
+        background-color: rgb(238, 232, 232);
+        height: 90vh;
+        top: -5vh;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .tamam-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 82%;
+        width: 100%;
+        height: 10%;
+        position: relative;
+        margin: auto;
+        margin-bottom: calc(20px + env(keyboard-inset-height))
+    }
+
+    .alerts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 83%;
+        width: 70%;
+        height: 8%;
+        position: relative;
+        margin: auto;
+    }
+    .textalert1{
+        padding: 10px;
+        font-size: large;
+        color: red;
+        font-family: 'Secular One', sans-serif;
+    }
+
+
+    .inputtext {
+        border-radius: 10px;
+        height: 45px;
+        width: 75%;
+        max-width: 75%;
+        font-family: 'Secular One', sans-serif;
+        background-color: rgb(218, 213, 213);
+        border: none;
+        padding: 20px;
+        font-size: large;
+        box-sizing: border-box;
+      }
+      
+    
+    .skipb{
+        height: 45px;
+        margin: 5px;
+        width: 15%;
+        border: none;
+        background: rgb(248, 197, 30);
+        border-radius: 10px;  
+        font-family: 'Secular One', sans-serif;
+        cursor: pointer;
+    }
+
+    .again{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        border: none;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 15px;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Secular One', sans-serif;
+        height: 50px;
+        width: 300px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;  
+    
+    }
+    .again:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+      }
+    
+    
+    .sonuc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 370px;
+        background-color: rgb(212, 208, 208);
+        border-radius: 20px;
+        height: 350px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      
+    .sonuclar{
+        position: relative;
+        margin-left: 30px;
+        top: 10px;
+        font-family: 'Secular One', sans-serif;
+        font-size: 20px;
+    }
+    
+    .end{
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        font-family: 'Secular One', sans-serif;
+        font-size: 20;
+    }
+    .true{
+        padding-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    .false{
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    .empty{
+        margin-left: 30px;
+    }
+    
+    .ortalama{
+        position: absolute;
+        margin-left: 32%;
+        width: 65%;
+        height: 55%;
+        top: 75px;
+    }
+    
+    p1[id="ortalama"]{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        font-family: 'Secular One', sans-serif;
+        font-size: 130px;
+    }
+    
+  }
+
+
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    body {
+        background-image: none; /* Arka plan resmi burada belirtilir */
+        background-color: rgb(238, 232, 232);
+        background-size: cover;
+        background-position: center center; /* Resmin ortalanması için */
+        background-repeat: no-repeat; /* Tekrarlamaması için */
+        overflow-x: hidden; /* Yatay kaydırmayı engellemek için */
+        overflow-y: auto; /* Dikey kaydırmayı sadece gerekli olduğunda aktif etmek için */
+      }
+      
+      
+    .giris {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 380px;
+        background-color: rgb(238, 232, 232);
+        border-radius: 20px;
+        height: 800px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -40%;
+        height: 30%;
+        width: 30%;
+        position: relative;
+        margin: auto;
+    }
+    .logop{
+        height: 130%;
+    }
+    .acıklama{
+        font-family: 'Secular One', sans-serif;
+        height: 50%;
+        width: 150%;
+        position: absolute;
+        background-color: rgb(116, 114, 114);
+        border-radius: 20px;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .m1, .m2, .m3 {
+        padding-top: 50px;
+        margin-left: 8px;
+        margin-right: 5px;
+        margin-bottom: 50px;
+        font-size: 17;
+        color: white;
+        display: block;
+      }
+    .start {
+        font-family: 'Secular One', sans-serif;
+        height: 10%;
+        width: 10%;
+        position: absolute;
+        bottom: 10;
+        left: -18%;
+        transform: translateX(-50%);
+      }
+      
+    .startb{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        border: none;
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Secular One', sans-serif;
+        height: 50px;
+        width: 560px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;  
+    
+    }
+    .startb:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+    }
+
+
+
+
+    .alan {
+        display: block;
+        width: 100%;
+        background-color: rgb(238, 232, 232);
+        height: 80vh;
+        top: -5%;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .tamam-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 82%;
+        width: 100%;
+        height: 20%;
+        position: relative;
+        margin: auto;
+        margin-bottom: calc(20px + env(keyboard-inset-height))
+    }
+
+    .alerts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 87%;
+        width: 70%;
+        height: 8%;
+        position: relative;
+        margin: auto;
+    }
+    .textalert1{
+        padding: 10px;
+        font-size: large;
+        color: red;
+        font-family: 'Secular One', sans-serif;
+    }
+
+
+    .inputtext {
+        border-radius: 10px;
+        height: 46px;
+        width: 75%;
+        max-width: 75%;
+        font-family: 'Secular One', sans-serif;
+        background-color: rgb(218, 213, 213);
+        border: none;
+        padding: 20px;
+        font-size: large;
+        box-sizing: border-box;
+      }
+      
+    
+    .skipb{
+        height: 45px;
+        margin: 5px;
+        width: 15%;
+        border: none;
+        background: rgb(248, 197, 30);
+        border-radius: 10px;  
+        font-family: 'Secular One', sans-serif;
+        cursor: pointer;
+    }
+
+
+
+
+    .again{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        border: none;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 50px;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Secular One', sans-serif;
+        height: 50px;
+        width: 500px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;  
+    
+    }
+    .again:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+      }
+    
+    
+    .sonuc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 570px;
+        background-color: rgb(212, 208, 208);
+        border-radius: 20px;
+        height: 450px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      
+    .sonuclar{
+        position: relative;
+        margin-left: 30px;
+        top: 50px;
+        font-family: 'Secular One', sans-serif;
+        font-size: 20px;
+    }
+    
+    .end{
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        font-family: 'Secular One', sans-serif;
+        font-size: 20;
+    }
+    .true{
+        padding-top: 70px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    .false{
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    .empty{
+        margin-left: 30px;
+    }
+    
+    .ortalama{
+        position: absolute;
+        margin-left: 32%;
+        width: 65%;
+        height: 55%;
+        top: 85px;
+    }
+    
+    p1[id="ortalama"]{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        font-family: 'Secular One', sans-serif;
+        font-size: 130px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* 769 piksel ile 1024 piksel arasındaki ekranlar için stil kuralları */
+
+    .alan {
+        display: block;
+        width: 100%;
+        background-color: rgb(238, 232, 232);
+        height: 110vh;
+        top: -5vh;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .tamam-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 60%;
+        width: 100%;
+        height: 20%;
+        position: relative;
+        margin: auto;
+        margin-bottom: calc(20px + env(keyboard-inset-height))
+    }
+
+    .alerts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 68%;
+        width: 70%;
+        height: 8%;
+        position: relative;
+        margin: auto;
+    }
+    .textalert1{
+        padding: 10px;
+        font-size: large;
+        color: red;
+        font-family: 'Secular One', sans-serif;
+    }
+
+
+    .inputtext {
+        border-radius: 10px;
+        height: 47px;
+        width: 75%;
+        max-width: 75%;
+        font-family: 'Secular One', sans-serif;
+        background-color: rgb(218, 213, 213);
+        border: none;
+        padding: 20px;
+        font-size: large;
+        box-sizing: border-box;
+      }
+      
+    
+    .skipb{
+        height: 48px;
+        margin: 5px;
+        width: 15%;
+        border: none;
+        background: rgb(248, 197, 30);
+        border-radius: 10px;  
+        font-family: 'Secular One', sans-serif;
+        cursor: pointer;
+    }
+
+
+  
+
+}

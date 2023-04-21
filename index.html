@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            kelime bulma
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="images/icon1.ico" type="image/x-icon">
+
+    </head>
+    <body>
+        <div id="giris" class="giris">
+        <div class="logo" id="logo">
+            <img src="images/lgo.png" id="logo" class="logop">
+
+        </div>
+        <div id="acıklama" class="acıklama">
+
+            <p class="m1">🟥 Bu bir kelime oyunudur.</p>
+            <p class="m2">🟥 Oyunun amacı yanlış sayısını minimum tutarak en yüksek ortalamaya sahip olmaktır.</p>
+            <p class="m3">🟥 Oyunu yarıda sonlandırmak için "bitir" yazabilirsiniz.</p>
+            <p id="alert3" class="textalert1" style="display: none;">Kelimeler yükleniyor lütfen tekrar basın</p>
+
+        </div>
+
+        <div class="start">
+        <button class="startb" id="startb" onclick="sny()">BAŞLAMAK İÇİN DOKUN</button>
+
+        </div>
+        </div>
+
+
+        <div id="alan" class="alan" style="display: none;">
+        <script src="script.js"></script>
+        <div class="harfler">
+            <img src="" id="image">
+        </div>
+        <div class="anlam">
+            <p1 id="anlam-text" class="text"></p1>
+        </div>
+
+        <div class="alerts">
+            <p1 id="alert1" class="textalert1" style="display: none;">Cevap boş olamaz</p1>
+            <p1 id="alert2" class="textalert1" style="display: none;">Baş Harf aynı olmalıdır</p1>
+
+
+        </div>
+        <div class="tamam-div" id="tamam-div">
+            <input type="text" class="inputtext" id="cevap" style="display: none;" onkeydown="if(event.keyCode===13) {check_answer();}else if(event.keyCode===9){skip(); return false;}" autocomplete="off">
+            <button class="skipb" id="geçbutton" style="display: none;" onclick="skip();">GEÇ</button>
+        </div>
+        </div>
+            <div class="sonuc" style="display: none;" id="sonuc">
+                <p1 class="end">Oyun Bitti!</p1>
+                <p1 class="sonuclar">Sonuçlar:</p1>
+                <p1 class="ortalama" id="ortalama"></p1>
+                <p1 id="dogruSayısı" style="display: none;" class="true">🟩 Doğru: </p1>
+                <p1 id="yanlısSayısı" style="display: none;" class="false">🟥 Yanlış: </p1>
+                <p1 id="bosSayısı" style="display: none;" class="empty">🟨 Boş: </p1>
+                <button class="again" id="again" style="display: none;" onclick="again();">Yeniden Oyna</button>
+                <div class="ortalama">
+                <p1 id="ortalama"></p1>
+                </div>
+            </div>
+    </body>      
+</html>
+
+
+
