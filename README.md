@@ -1,6 +1,5 @@
 # doteword
 
-Simple HTML base word game./
 Basit HTML tabanlı kelime oyunu.
 
 ![Ekran Görüntüsü - 2023-04-21 18-32-22](https://user-images.githubusercontent.com/77579741/233676800-4f5a15c6-2c12-492d-9d7b-f74034deedf7.png)
